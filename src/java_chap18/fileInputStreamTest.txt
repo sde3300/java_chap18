@@ -1,0 +1,6 @@
+fileInputStreamTest
+한글 출력 시 한글이 제대로 출력되지 않음
+
+영어 1글자 당 1byte
+한글 1글자 당 2byte
+read는 1byte씩 읽기 때문에 한글 입력은 깨짐
